@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Forms</title>
+</head>
+
+<body>
+
+  <form action="">
+    <label for="name">Nahfdfame</label>
+    <input type="text" placeholder="Enter your Name" name="name" id="name">
+    <!--placeholder === display text(cannot edit)-->
+    <br />
+
+    <label for="password">Password</label>
+    <input type="password" placeholder="Enter the password" name="password" id="password" />
+    <br />
+
+    <label for="email">E-Mail</label>
+    <input type="email" name="" id="" value="email@email" />
+    <!--Value === Pre written text-->
+    <br>
+
+
+    <label for="email">E-Mail</label>
+    <input type="email" name="" id="" placeholder="email@email" />
+    <br />
+
+
+
+
+    <p><strong>TEXT AREA</strong></p>
+
+    <textarea name="" id="" cols="10" rows="2"></textarea>
+    <br /><br />
+
+
+
+    <p><strong> RADIO </strong></p>
+
+    <p>Choose your favorite coding language</p>
+    <br />
+    <input type="radio" name="coding" id="" value="C++" />C++
+
+    <input type="radio" name="coding" id="" value="JAVA" />JAVA
+
+    <input type="radio" name="coding" id="" value="Python" />Python
+    <!--Here 'name' should match for Single option to choose.-->
+    <!--You can choose only 1 option with the same 'name'-->
+    <!--'value' is to submit the data at backend -->
+    <br /><br />
+
+
+
+
+    <p><strong> CHECK BOXES </strong></p>
+
+    <p>Choose your favorite coding language(Multiple allowed).</p>
+    <br />
+    <input type="checkbox" checked name="programming" id="" value="C++" />C++
+
+    <input type="checkbox" name="programming" id="" value="JAVA" />JAVA
+
+    <input type="checkbox" name="programming" id="" value="Python" />Python
+    <!-- 'checked' can be used in the input bar to Pre-check the option...refer to C++ checkbox  -->
+    <br /><br />
+
+    <p><strong> SELECT </strong></p>
+
+    <p>Choose your favorite coding language(Select).</p>
+    <select name="languages" id="">
+
+      <option value="Select an option" disabled selected>Select an option</option>
+      <!-- disabled selected  -->
+      <option value="C++">C++</option>
+      <option value="JAVA">JAVA</option>
+      <option value="Python">Python</option>
+
+    </select>
+    <br />
+    <br>
+    
+
+    <input type="submit" value="Submit Please" />
+  </form>
+  
+</body>
+
+</html>
